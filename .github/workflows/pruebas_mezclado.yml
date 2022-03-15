@@ -47,6 +47,6 @@ jobs:
     needs: job1
     runs-on: ubuntu-latest
     steps:
-        -name: automerge
-         env:
-           MERGE_LABELS: ""
+    -name: automerge
+     env:
+       MERGE_LABELS: ""
