@@ -49,4 +49,4 @@ jobs:
     steps:
         -name: automerge
          env:
-            MERGE_LABELS: ""
+           MERGE_LABELS: ""
