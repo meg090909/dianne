@@ -1,6 +1,6 @@
 import unittest
 import datetime
-from src.mi_proyecto.persona import Persona
+from src.persona import Persona
 
 
 class PersonaTestCase(unittest.TestCase):
@@ -10,6 +10,7 @@ class PersonaTestCase(unittest.TestCase):
       self.persona2 = Persona(nombre='Diego', edad=22)
       self.persona3 = Persona(nombre='Alejandra', edad=25)
       self.persona4 = Persona(nombre='Diana', edad=25)
+      self.persona4 = Persona(nombre='Juan', edad=35)
       self.grupo = [self.persona1, self.persona2, self.persona3]
 
    def test_constructor(self):
