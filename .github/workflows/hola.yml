@@ -15,12 +15,13 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  name: Trabajo_1
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     outputs:
-      salida: ${{ steps.print_screen.outputs.salida }}
+      salida: ${{ steps.print_screen.outputs.salida2 }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -28,7 +29,16 @@ jobs:
 
     
       - name: print_screen
+        id: Imprimir
         env: 
           MI_VAR: Esta es una prueba de yaml
         run: |
-          echo "::set-output name=salida::${MI_VAR}"
+          echo "::set-output name=salida2::${MI_VAR}"
+
+    needs: Trabajo_1
+    name: Trabajo_2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir
+        id: imprimir
+        run: echo ${{needs.Trabajo_1.outputs.salida}}
