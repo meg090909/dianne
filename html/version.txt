@@ -1,2 +1,2 @@
-Version 1.1
-Interdependencia entre jobs
+Version 1.2
+Interdependencia entre jobs 2
