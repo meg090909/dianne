@@ -1,4 +1,4 @@
-name: Pruebas unitarias con validacion
+name: Mezcla de ramas prueba
 on:
   pull_request:
     types:
