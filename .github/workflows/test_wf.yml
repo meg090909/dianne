@@ -29,8 +29,7 @@ jobs:
         id: Imprimir
         env: 
           MI_VAR: Esta es una prueba de yaml
-        run: |
-          echo "::set-output name=salida2::${MI_VAR}"
+        run: echo "::set-output name=salida2::${MI_VAR}"
   
   Trabajo_2:
     needs: Trabajo_1
