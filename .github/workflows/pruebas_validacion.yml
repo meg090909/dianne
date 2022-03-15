@@ -4,7 +4,7 @@ on:
     branches: [ master ]
 jobs:
   job1:
-    name: Pruebas_yaml
+    name: Pruebas_yaml2
     runs-on: ubuntu-latest
     steps:
     - name: Checkout de repositorio
