@@ -15,6 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  First_job
   name: Trabajo_1
   # This workflow contains a single job called "build"
   build:
@@ -34,11 +35,12 @@ jobs:
           MI_VAR: Esta es una prueba de yaml
         run: |
           echo "::set-output name=salida2::${MI_VAR}"
-
-    needs: Trabajo_1
-    name: Trabajo_2
-    runs-on: ubuntu-latest
-    steps:
-      - name: Imprimir
-        id: imprimir
-        run: echo ${{needs.Trabajo_1.outputs.salida}}
+          
+  Second_job
+  needs: Trabajo_1
+  name: Trabajo_2
+  runs-on: ubuntu-latest
+  steps:
+    - name: Imprimir
+      id: imprimir
+      run: echo ${{needs.Trabajo_1.outputs.salida}}
