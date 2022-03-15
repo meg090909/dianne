@@ -50,3 +50,5 @@ jobs:
     - name: automerge
       env:
         MERGE_LABELS: ""
+        MENSAJE_MERGE: Se mezcla rama
+      run: echo "::set-output name=respuesta::${MENSAJE_MERGE}"
