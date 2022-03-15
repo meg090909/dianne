@@ -1,7 +1,7 @@
 import unittest
 import datetime
 from src.persona import Persona
-
+from sqlalchemy import text
 
 class PersonaTestCase(unittest.TestCase):
 
