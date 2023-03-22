@@ -1,0 +1,83 @@
+[33mcommit 915ec07b691a5ae673917a6c3678e0f7f4b61316[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: andre <andre.zambrano.cueva@gmail.com>
+Date:   Tue Mar 21 17:16:18 2023 -0500
+
+    FIX1: Corrección de páginas 3 y 5.
+
+[33mcommit 3a401d6205245bf82a7efb256c8d0f00867b10aa[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: andre <andre.zambrano.cueva@gmail.com>
+Date:   Tue Mar 21 17:12:51 2023 -0500
+
+    FIX1: Corrección de páginas 3 y 5.
+
+[33mcommit 9f1cc1a209e5eda100b4f814e3c3b32a7d46783b[m
+Author: avargas20 <a.vargas20@uniandes.edu.co>
+Date:   Tue Dec 1 19:41:36 2020 -0500
+
+    Update README.md
+
+[33mcommit 29b9632ac0926de985e1f489fb905a79bbd89170[m
+Author: avargas20 <a.vargas20@uniandes.edu.co>
+Date:   Tue Dec 1 19:41:08 2020 -0500
+
+    Update README.md
+
+[33mcommit ce242ceca7c5aabcce21dc063a32937bed549d50[m
+Author: Daniel Althviz Moré <dalthviz@users.noreply.github.com>
+Date:   Wed Jan 29 12:34:26 2020 -0500
+
+    Update README.md
+
+[33mcommit e344ea6c8ab2622c867038a80b1503784fbe2d46[m
+Author: Daniel Althviz Moré <dalthviz@users.noreply.github.com>
+Date:   Wed Jan 29 12:31:59 2020 -0500
+
+    Update README.md
+
+[33mcommit 15a3876747c4c372e35c39bba42fa23266e480f2[m
+Author: dalthviz <d.althviz10@uniandes.edu.co>
+Date:   Wed Dec 11 13:18:03 2019 -0500
+
+    Add images
+
+[33mcommit e5e7d328a5df4b8e04f781d0a66a32991180d9c0[m
+Author: dalthviz <d.althviz10@uniandes.edu.co>
+Date:   Wed Dec 11 13:17:34 2019 -0500
+
+    Remove images
+
+[33mcommit ce953573922dce5b5a65c4166ebe026975b80cdb[m
+Author: Daniel Althviz Moré <dalthviz@users.noreply.github.com>
+Date:   Wed Nov 20 18:09:12 2019 -0500
+
+    Update README.md
+
+[33mcommit ba7bc1084aea01d8617a18a2a99aa240318b129d[m
+Author: Daniel Althviz Moré <dalthviz@users.noreply.github.com>
+Date:   Wed Nov 20 17:50:00 2019 -0500
+
+    Update README.md
+
+[33mcommit c0f083838521101b5af05d5fa0cb83686d14fff9[m
+Author: dalthviz <d.althviz10@uniandes.edu.co>
+Date:   Thu Oct 24 08:52:29 2019 -0500
+
+    Update base layout. Add link to previous page
+
+[33mcommit f3e3476d1d4e65d37aa0a2773a05cf4372641a90[m
+Author: dalthviz <d.althviz10@uniandes.edu.co>
+Date:   Thu Oct 3 10:39:29 2019 -0500
+
+    Update base site
+
+[33mcommit d8b110ee659a784ff00f0c8c64ab4d2ed37790dc[m
+Author: dalthviz <d.althviz10@uniandes.edu.co>
+Date:   Thu Sep 19 09:37:50 2019 -0500
+
+    Initial website setup
+
+[33mcommit 2eaa1de97b317605b5877b7e9f6bf3e58982ec93[m
+Author: Daniel Althviz Moré <dalthviz@users.noreply.github.com>
+Date:   Thu Sep 19 09:31:54 2019 -0500
+
+    Initial commit
